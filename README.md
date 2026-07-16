@@ -41,6 +41,12 @@ login tests file in _test_ folder
 
 This workflow guarantees that our core security features (like authentication handling and rate limiting) are explicitly tested before the logic even exists.
 
+## Security Audits & Fixes
+
+During routine agentic security reviews, we discovered and immediately patched a **Rate Limit Bypass via IP Spoofing** vulnerability:
+- **The Issue:** The rate limiter blindly trusted the `X-Forwarded-For` header, which can be easily spoofed by an attacker to bypass the 5-attempt limit.
+- **The Fix:** Using our TDD cycle, we wrote a failing security test simulating the spoofing attack, then hardened the IP extraction logic in `src/app/api/auth/login/route.ts` to strictly prioritize the `X-Real-IP` header (set safely by reverse proxies) over untrusted client headers.
+
 ## Getting Started
 
 First, install the dependencies:
