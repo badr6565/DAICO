@@ -112,7 +112,7 @@ export default function DashboardPage() {
               </svg>
             </div>
             <span className="text-xl font-black tracking-tight text-slate-800">
-              Secure<span className="text-sky-500">Do</span>
+              MY<span className="text-sky-500">Do</span>
             </span>
           </div>
           
