@@ -5,7 +5,7 @@ import bcrypt from 'bcrypt';
 export const rateLimitStore = new Map<string, number>();
 
 export const POST = async (req: Request): Promise<Response> => {
-  const ip = req.headers.get('x-real-ip') || req.headers.get('x-forwarded-for')?.split(',')[0].trim() || '127.0.0.1';
+  const ip = req.headers.get('x-forwarded-for') || '127.0.0.1';
   const attempts = rateLimitStore.get(ip) || 0;
 
   if (attempts >= 5) {
