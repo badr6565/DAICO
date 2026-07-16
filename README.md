@@ -2,6 +2,9 @@
 # MyDo
 
 SecureDo is a highly secure, scalable To-Do List application built from the ground up prioritizing robust architecture, strict security constraints, and modern UI/UX.
+## Home page
+<img width="1905" height="912" alt="image" src="https://github.com/user-attachments/assets/adf60a9e-873e-4653-936c-6ea540b863aa" />
+
 
 Built with **Next.js (App Router)**, **Prisma ORM**, **SQLite**, and **Tailwind CSS**.
 
