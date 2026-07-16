@@ -1,4 +1,5 @@
-# SecureDo
+
+# MyDo
 
 SecureDo is a highly secure, scalable To-Do List application built from the ground up prioritizing robust architecture, strict security constraints, and modern UI/UX.
 
@@ -15,7 +16,8 @@ Built with **Next.js (App Router)**, **Prisma ORM**, **SQLite**, and **Tailwind 
 
 This repository was developed with the assistance of advanced agentic AI. To maintain the integrity of the codebase, we utilize an `AGENTS.md` file located at the root of the project. 
 
-![AGENTS.md Configuration](./docs/agents-config.png)
+<img width="1323" height="798" alt="agentmd" src="https://github.com/user-attachments/assets/9b76aa7b-1e57-4b42-bfc4-9bfdb3b0bef1" />
+
 
 The `AGENTS.md` file serves as a **Workspace Customization Root**. It dictates strict behavioral constraints, design aesthetics, and security rules that any autonomous AI agent (like Google Antigravity) must parse and follow unconditionally before writing a single line of code.
 
@@ -25,9 +27,15 @@ All features in SecureDo were developed adhering to a strict **Red-Green-Refacto
 
 ![TDD RED Phase Setup](./docs/tdd-red-phase.png)
 
+login tests file in _test_ folder 
+
 1. **RED:** Write the automated unit or security test first. The test must fail.
-2. **GREEN:** Write the minimal functional React/Next.js code required to make the test pass.
-3. **REFACTOR:** Clean up the code, optimize the architecture, and apply design patterns while keeping the test suite entirely green.
+2. <img width="947" height="476" alt="RedTest" src="https://github.com/user-attachments/assets/3b2ee5d0-b693-43d1-b699-e0c2df28ac95" />
+
+3. **GREEN:** Write the minimal functional React/Next.js code required to make the test pass.
+4. <img width="930" height="265" alt="green" src="https://github.com/user-attachments/assets/52c778e7-ab10-44eb-a504-52e346aff42a" />
+
+5. **REFACTOR:** Clean up the code, optimize the architecture, and apply design patterns while keeping the test suite entirely green.
 
 ![TDD GREEN Phase - Tests Passing](./docs/tdd-green-phase.png)
 
