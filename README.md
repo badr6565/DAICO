@@ -36,8 +36,9 @@ login tests file in _test_ folder
 4. <img width="930" height="265" alt="green" src="https://github.com/user-attachments/assets/52c778e7-ab10-44eb-a504-52e346aff42a" />
 
 5. **REFACTOR:** Clean up the code, optimize the architecture, and apply design patterns while keeping the test suite entirely green.
+<img width="1017" height="493" alt="refactor" src="https://github.com/user-attachments/assets/d99049f0-c1f9-4a11-aa4b-7bd3d0b14cea" />
 
-![TDD GREEN Phase - Tests Passing](./docs/tdd-green-phase.png)
+
 
 This workflow guarantees that our core security features (like authentication handling and rate limiting) are explicitly tested before the logic even exists.
 
