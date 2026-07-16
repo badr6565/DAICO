@@ -1,3 +1,4 @@
+<img width="1017" height="493" alt="image" src="https://github.com/user-attachments/assets/947f50dc-8be8-4a93-9a77-cc6da56cc272" />
 # SecureDo
 
 SecureDo is a highly secure, scalable To-Do List application built from the ground up prioritizing robust architecture, strict security constraints, and modern UI/UX.
