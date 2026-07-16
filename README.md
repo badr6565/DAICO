@@ -1,4 +1,4 @@
-# SecureDo
+# MYDo
 
 SecureDo is a highly secure, scalable To-Do List application built from the ground up prioritizing robust architecture, strict security constraints, and modern UI/UX.
 
