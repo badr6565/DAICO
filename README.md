@@ -1,4 +1,4 @@
-# MYDo
+# SecureDo
 
 SecureDo is a highly secure, scalable To-Do List application built from the ground up prioritizing robust architecture, strict security constraints, and modern UI/UX.
 
@@ -15,15 +15,21 @@ Built with **Next.js (App Router)**, **Prisma ORM**, **SQLite**, and **Tailwind 
 
 This repository was developed with the assistance of advanced agentic AI. To maintain the integrity of the codebase, we utilize an `AGENTS.md` file located at the root of the project. 
 
+![AGENTS.md Configuration](./docs/agents-config.png)
+
 The `AGENTS.md` file serves as a **Workspace Customization Root**. It dictates strict behavioral constraints, design aesthetics, and security rules that any autonomous AI agent (like Google Antigravity) must parse and follow unconditionally before writing a single line of code.
 
 ## Strict Test-Driven Development (TDD)
 
 All features in SecureDo were developed adhering to a strict **Red-Green-Refactor TDD Cycle**, as mandated by our `AGENTS.md` rules:
 
+![TDD RED Phase Setup](./docs/tdd-red-phase.png)
+
 1. **RED:** Write the automated unit or security test first. The test must fail.
 2. **GREEN:** Write the minimal functional React/Next.js code required to make the test pass.
 3. **REFACTOR:** Clean up the code, optimize the architecture, and apply design patterns while keeping the test suite entirely green.
+
+![TDD GREEN Phase - Tests Passing](./docs/tdd-green-phase.png)
 
 This workflow guarantees that our core security features (like authentication handling and rate limiting) are explicitly tested before the logic even exists.
 
